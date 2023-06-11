@@ -1,0 +1,71 @@
+@import "../common/Tool";
+
+
+#invitePane{
+  width: 16rem;
+  min-height: 100%;
+  background: #F3F3F3;
+  margin: auto;
+
+  #content{
+    width: 15rem;
+    margin: .5rem .5rem 0rem .5rem;
+    border: 1px solid #DEDCDC;
+    background: #EBEBEB;
+  }
+
+  .title, .mycode{
+    text-align: center;
+    padding: .5rem 0rem;
+  }
+
+  #QRcode{
+    margin: auto;
+  }
+
+
+  #getPointsButton{
+    width: 12rem;
+    height: 1.8rem;
+    margin-left: 1.5rem;
+    border-radius: 1rem;
+  }
+
+
+  .p{
+    text-align: center;
+  }
+
+  .white{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid #DEDCDC;
+  }
+
+  .share{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    z-index: 110;
+    text-align: right;
+    display: none;
+  }
+
+  .share img{
+    margin:10px 35px 0 0;
+    width: 75%;
+  }
+
+  .tips{
+    color:#FFF;
+    margin-top: 10px;
+    text-align:center;
+    margin-left:-15px;
+  }
+}
+
+
